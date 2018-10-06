@@ -1,4 +1,3 @@
-SELECT * FROM burgers_db.burgers;
-
-INSERT INTO burgers (name, eaten) VALUES ('Buffalo Chicken Burger', false);
-INSERT INTO burgers (name, eaten) VALUES ('Sunny Side Up Burger', false);
+INSERT INTO burgers (burger_name, eaten) VALUES ('Buffalo Chicken Burger', FALSE);
+INSERT INTO burgers (burger_name, eaten) VALUES ('Down Under Burger', FALSE);
+INSERT INTO burgers (burger_name, eaten) VALUES ('Veggie Burger', FALSE);

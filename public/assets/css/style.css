@@ -1,36 +1,78 @@
 body {
-    font-family: 'Germania One', cursive;
-    width: 100%;
-    background-image: url('');
+  width: 99%;
+  height: 900px;
+  background-color: rgb(102, 255, 194);
 }
 
-h1 {
-    margin: auto 0;
-    margin-left: 20%;
-    margin-bottom: 3%;
-    margin-top: 2%;
+#top {
+  margin-top: 28px;
+  margin-left: 40%;
+  color: rgb(0, 115, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
 }
 
-#avail {
-    float: left;
-    margin-right: 6%;
-    margin-left: 10%;
-
-
+h1{
+  font-size: 50px;
 }
 
-#devoured {
-    float: left;
+#eatit {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  background-color: rgb(236, 56, 56);
 
 }
-
-li {
-    font-size: 20px;
-    list-style-type: none;
+@media (min-width: 1200px) {
+  .container {
+    width: 990px;
+  }
+  
 }
 
-
-#add {
-    clear: both;
-    margin-left: 25%;
+@media (min-width: 992px) {
+  .container {
+    width: 990px;
+  }
 }
+
+.enter_section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#enter_text {
+  width: 400px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: 38px;
+}
+
+.task {
+  border-color: rgb(12, 11, 11);
+  border-style: solid;
+  border-width: 3px;
+}
+
+pre, input {
+  font-size: 15px;
+  border-color: rgba(250, 115, 115, 0.973);
+  border-style: dashed;
+  border-width: 1;
+}
+
+.button-size {
+  padding-bottom: 20px;
+}
+
+#text-enter-button {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
